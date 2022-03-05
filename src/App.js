@@ -3,7 +3,6 @@ import "./App.css";
 import Keyboard from "./components/Keyboard";
 import { wordList } from "./constants/data";
 
-
 const App = () => {
   const [boardData, setBoardData] = useState(
     JSON.parse(localStorage.getItem("board-data"))
@@ -165,7 +164,6 @@ const App = () => {
   return (
     <div className="container">
       <div className="top">
-        
         <div className="title">WORDLE</div>
         <button className="reset-board" onClick={resetBoard}>
           {"\u27f3"}
@@ -203,7 +201,5 @@ const App = () => {
     </div>
   );
 };
-
-
 
 export default App;

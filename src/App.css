@@ -24,6 +24,7 @@
 
 .title{
     font-family: 'Merriweather';
+    margin-left: 25%;
     color: #ffffff;
     letter-spacing: 0.2rem;
     font-size: 42px;
@@ -56,7 +57,6 @@
     border: 2px solid #d3d6da;
 }
 
-
 .reset-board{
     padding: 5px 5px 5px 60px;
     background: none;
@@ -69,8 +69,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    padding:05px 110px;
-    border-bottom: 3px solid grey;
+    padding:5px 110px;
+    border-bottom: 4px solid grey;
 }
 
 
@@ -113,3 +113,4 @@
     background: #787c7e;
     color: #fff;
 }
+
