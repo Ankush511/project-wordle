@@ -3,6 +3,7 @@ import "./App.css";
 import Keyboard from "./components/Keyboard";
 import { wordList } from "./constants/data";
 
+
 const App = () => {
   const [boardData, setBoardData] = useState(
     JSON.parse(localStorage.getItem("board-data"))
@@ -50,8 +51,8 @@ const App = () => {
       };
       setBoardData(newBoardData);
       localStorage.setItem("board-data", JSON.stringify(newBoardData));
-    }
-  }, []);
+    } 
+  }, [boardData]);
 
   const handleMessage = (message) => {
     setMessage(message);
